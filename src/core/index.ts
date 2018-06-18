@@ -1,12 +1,12 @@
 'use strict';
 
-const vm = require('vm');
-const pathFn = require('path');
+import * as vm from 'vm';
+import * as pathFn from 'path';
+import * as osenv from 'osenv';
+import * as Promise from 'bluebird';
+import * as chalk from 'chalk';
+import * as fs from 'hexo-fs';
 const Module = require('module');
-const osenv = require('osenv');
-const Promise = require('bluebird');
-const chalk = require('chalk');
-const fs = require('hexo-fs');
 const logger = require('./logger');
 const Command = require('./command');
 const utils = require('../utils');

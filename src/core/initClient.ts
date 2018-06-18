@@ -1,8 +1,8 @@
 'use strict';
 
-const fs = require('hexo-fs');
-const inquirer = require('inquirer');
-const Promise = require('bluebird');
+import * as fs from 'hexo-fs';
+import * as inquirer from 'inquirer';
+import * as Promise from 'bluebird';
 const utils = require('../utils');
 
 /**

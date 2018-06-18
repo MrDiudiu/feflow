@@ -1,7 +1,7 @@
 'use strict';
 
-const yaml = require('js-yaml');
-const fs = require('hexo-fs');
+import * as yaml from 'js-yaml';
+import * as fs from 'hexo-fs';
 
 // Get document, or throw exception on error
 function parseYaml(path) {

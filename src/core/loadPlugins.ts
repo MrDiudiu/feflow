@@ -1,9 +1,9 @@
 'use strict';
 
-const pathFn = require('path');
-const fs = require('hexo-fs');
-const Promise = require('bluebird');
-const chalk = require('chalk');
+import * as pathFn from 'path';
+import * as fs from 'hexo-fs';
+import * as Promise from 'bluebird';
+import * as chalk from 'chalk';
 
 /**
  * Read external plugins from local package.json

@@ -1,13 +1,13 @@
 'use strict';
 
-const osenv = require('osenv');
-const pathFn = require('path');
-const fs = require('hexo-fs');
-const semver = require('semver');
-const inquirer = require('inquirer');
-const chalk = require('chalk');
-const Table = require('easy-table');
-const yeoman = require('yeoman-environment');
+import * as osenv from 'osenv';
+import * as pathFn from 'path';
+import * as fs from 'hexo-fs';
+import * as semver from 'semver';
+import * as inquirer from 'inquirer';
+import * as chalk from 'chalk';
+import * as Table from 'easy-table';
+import * as yeoman from 'yeoman-environment';
 const yeomanEnv = yeoman.createEnv();
 const { pkgJson, Loading } = require('../../utils/index');
 

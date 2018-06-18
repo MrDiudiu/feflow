@@ -1,7 +1,7 @@
 'use strict';
 
-const path = require('path');
-const spawn = require('cross-spawn');
+import * as path from 'path';
+import * as spawn from 'cross-spawn';
 const Loading = require('../../utils/index').Loading;
 
 class Linter {

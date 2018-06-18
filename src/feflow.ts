@@ -1,11 +1,11 @@
 'use strict';
 
+import * as figlet from 'figlet';
+import * as chalk from 'chalk';
+import * as minimist from 'minimist';
+import * as semver from 'semver';
 const Feflow = require('./core');
 const pkg = require('../package.json');
-const figlet = require('figlet');
-const chalk = require('chalk');
-const minimist = require('minimist');
-const semver = require('semver');
 
 /**
  * Entrance file, parse user input and call a command.

@@ -1,6 +1,6 @@
 'use strict';
 
-const ora = require('ora');
+import * as ora from 'ora';
 
 class Loading {
   constructor(name, color) {

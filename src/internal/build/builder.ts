@@ -1,10 +1,10 @@
 'use strict';
 
-const fs = require('hexo-fs');
-const pathFn = require('path');
-const semver = require('semver');
-const spawn = require('cross-spawn');
-const Table = require('easy-table');
+import * as fs from 'hexo-fs';
+import * as pathFn from 'path';
+import * as semver from 'semver';
+import * as spawn from 'cross-spawn';
+import * as Table from 'easy-table';
 const Config = require('./config');
 const { pkgJson, Loading } = require('../../utils/index');
 

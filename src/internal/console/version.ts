@@ -1,7 +1,7 @@
 'use strict';
 
-const os = require('os');
-const Promise = require('bluebird');
+import * as os from 'os';
+import * as Promise from 'bluebird';
 
 module.exports = function (args) {
   const versions = process.versions;

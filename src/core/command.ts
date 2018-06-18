@@ -1,7 +1,7 @@
 'use strict';
 
-const Promise = require('bluebird');
-const abbrev = require('abbrev');
+import * as Promise from 'bluebird';
+import * as abbrev from 'abbrev';
 
 /**
  * All commands need to be registered before using in CLI console.

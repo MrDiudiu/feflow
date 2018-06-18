@@ -1,11 +1,11 @@
 'use strict';
 
-const pathFn = require('path');
-const Promise = require('bluebird');
-const fs = require('hexo-fs');
-const rp = require('request-promise');
-const Table = require('easy-table');
-const spawn = require('cross-spawn');
+import * as pathFn from 'path';
+import * as Promise from 'bluebird';
+import * as fs from 'hexo-fs';
+import * as rp from 'request-promise';
+import * as Table from 'easy-table';
+import * as spawn from 'cross-spawn';
 const Loading = require('../../utils/index').Loading;
 
 class Plugin {

@@ -1,6 +1,6 @@
 'use strict';
 
-const rp = require('request-promise');
+import * as rp from 'request-promise';
 
 function pkgJson(name, version, registry) {
   return new Promise(function (resolve, reject) {

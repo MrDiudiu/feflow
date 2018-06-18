@@ -1,11 +1,11 @@
 'use strict';
 
-const fs = require('hexo-fs');
-const pathFn = require('path');
-const osenv = require('osenv');
-const bunyan = require('bunyan');
-const chalk = require('chalk');
-const Writable = require('stream').Writable;
+import * as fs from 'hexo-fs';
+import * as pathFn from 'path';
+import * as osenv from 'osenv';
+import * as bunyan from 'bunyan';
+import * as chalk from 'chalk';
+import { Writable } from 'stream';
 const { formatDate } = require('../utils');
 
 const levelNames = {

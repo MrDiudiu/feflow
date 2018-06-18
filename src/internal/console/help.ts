@@ -1,5 +1,6 @@
 'use strict';
-const meow = require('meow');
+
+import * as meow from 'meow';
 
 module.exports = function (args) {
   const cli = meow(`
