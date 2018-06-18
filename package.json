@@ -30,6 +30,7 @@
     "compatibleVersion": ">=0.13.3"
   },
   "dependencies": {
+    "@types/node": "^10.3.3",
     "abbrev": "^1.1.0",
     "bluebird": "^3.5.0",
     "bunyan": "^1.8.12",
